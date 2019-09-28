@@ -16,7 +16,7 @@
 <!-- Navbar (sit on top) -->
 <div class="w3-top" style="font-family:Georgia;" class="center">
   <div class="w3-bar w3-white w3-wide w3-padding w3-card-2">
-    <a href="#home" class="w3-bar-item w3-button" style= a{color:rgb(206,10,56);}>Robbinsville Model United Nations</a>
+    <a href="#home" class="w3-bar-item w3-button">Robbinsville Model United Nations</a>
     <!-- Float links to the right. Hide them on small screens -->
     <div class="w3-right w3-hide-small">
       <a href="#about" class="w3-bar-item w3-button">About</a>
@@ -369,62 +369,21 @@
   <div class="w3-container w3-padding-16 w3-row-padding" id="gallery">
     <h3 class="w3-border-bottom w3-border-light-grey w3-padding-8" style="font-family:Georgia;">Gallery</h3>
     <div class="w3-container w3-padding-4">
-      <h4 class="w3-border-bottom w3-border-light-grey w3-padding-8">2018-2019</h4>
-           <!-- Full-width slides/quotes -->
-        <div class="mySlides">
-          <h3 style="font-family:Georgia;">Seniors</h3>
-          <div class="w3-container w3-opacity">
-          <a target="_blank" href="Images/Brian2.jpg" style="max-width:887px;max-height:665px;border:5px solid
-          black;display:block;margin:auto">
-            <img src="Images/Brian2.jpg" alt="Brian">
-          </a>
-        </div>
-    </div>
-    </div>
-      <!-- Next/prev buttons -->
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
+    <!-- <h4 class="w3-border-bottom w3-border-light-grey w3-padding-8">2018-2019</h4> -->
+     <div class="w3-container w3-light-grey">
+       <h4>2018-2019</h4>
       </div>
-
-      <!-- Dots/bullets/indicators -->
-      <div class="dot-container">
-        <span class="dot" onclick="currentSlide(1)"></span>
-        <span class="dot" onclick="currentSlide(2)"></span>
-        <span class="dot" onclick="currentSlide(3)"></span>
-        <span class="dot" onclick="currentSlide(4)"></span>
-
-        <!-- Dots/bullets/indicators functionality -->
-        <script>
-          var slideIndex = 1;
-          showSlides(slideIndex);
-
-          function plusSlides(n) {
-            showSlides(slideIndex += n);
-          }
-
-          function currentSlide(n) {
-            showSlides(slideIndex = n);
-          }
-
-          function showSlides(n) {
-            var i;
-            var slides = document.getElementsByClassName("mySlides");
-            var dots = document.getElementsByClassName("dot");
-            if (n > slides.length) {slideIndex = 1}
-            if (n < 1) {slideIndex = slides.length}
-            for (i = 0; i < slides.length; i++) {
-                slides[i].style.display = "none";
-            }
-            for (i = 0; i < dots.length; i++) {
-                dots[i].className = dots[i].className.replace(" active", "");
-            }
-            slides[slideIndex-1].style.display = "block";
-            dots[slideIndex-1].className += " active";
-          }
-        </script>
+<div class="w3-row-padding w3-margin-top">
+  <div class="w3-third">
+    <div class="w3-card">
+      <img border="5 solid black" src="Images/Kenny and Tarun Japan Night of Nations 2018.jpg" style="width:887px;height:225px;border: 5px solid black;display:block;margin:auto">
+      <div class="w3-container">
+        <h6>Japan Night of Nations 2018</h6>
       </div>
     </div>
+  </div>
+                                                                                                   
+   
   <!-- Resources Section -->
   <div class="w3-container w3-padding-16 w3-row-padding" id="resources">
     <h3 class="w3-border-bottom w3-border-light-grey w3-padding-8" style="font-family:Georgia;">Resources</h3>
